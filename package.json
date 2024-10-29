@@ -1,0 +1,27 @@
+{
+  "name": "college_site",
+  "version": "",
+  "description": "College site ",
+  "author": "Dezuze <weslyphilipj@gmail.com>",
+  "license": "UNLICENSED",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "format": "prettier .",
+    "format:write": "prettier --write ."
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "*",
+    "@nuxt/devtools": "^1.6.0",
+    "@nuxtjs/tailwindcss": "*",
+    "eslint": "*",
+    "eslint-config-prettier": "*",
+    "nuxt": "3.0.0-rc.6",
+    "prettier": "*",
+    "typescript": "*"
+  }
+}
